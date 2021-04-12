@@ -10,9 +10,11 @@
     display:flex;
     justify-content: space-between;
     font-size: 40px;
-    padding: 30px;
+    padding: 30px 0px 0px 0px;
     background-color: black;
     color: white;
+    width: 100vw;
+  
 }
 .linkContainer
 {
@@ -31,22 +33,22 @@ body
 
 .bg
 {
-    height: 300px;
-    width:100%;
+    width:100vw;
     background: url("../images/pexels-alex-conchillos-3941855.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding: 100px 0px 100px 0px;
     
 }
 
-li a 
+.linkContainer li a 
 {
     color:white;
     text-decoration: none;
 }
 
-li a:hover
+.linkContainer li a:hover
 {
     background-color: white;
     color:black;
@@ -76,3 +78,132 @@ h1
     width: 80%;
 }
 
+.portfolio
+{
+    display:flex;
+    flex-direction: column;
+    width: 1000px; 
+    
+}
+
+a#pro1
+{
+    display:block;
+    background-image: url('../images/iambored-eventsearch.png');
+    background-size: cover;
+    background-position: top;
+    width:100%;
+    height: 300px;
+    z-index: 0;
+}
+
+a#pro2
+{
+    display:block;
+    background-image: url('../images/horiseon.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    
+}
+
+a#pro3{
+    display:block;
+    background-image: url('../images/password-generator.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    
+}
+
+
+a#pro4{
+    display:block;
+    background-image: url('../images/weatherdashboard.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    
+}
+
+a#pro5{
+    display:block;
+    background-image: url('../images/pexels-luis-rosero-5679568.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+   
+}
+
+.smallImg, .smallImg2, .largeImg
+{
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 100%;
+    position: relative;
+   
+}
+
+
+.blueBorder
+{
+    border: 3px solid lightblue;
+    width:100%;
+}
+
+.title
+{
+    position: absolute;
+    background-color: lightblue;
+    align-self: flex-end;
+    padding: 20px;
+    z-index: 1;
+}
+
+.smTitle
+{
+    position: absolute;
+    background-color: lightblue;
+    margin-top: 140px;
+    padding: 20px;
+    z-index: 1;  
+}
+
+a#pro1:hover, 
+a#pro2:hover, 
+a#pro3:hover, 
+a#pro4:hover, 
+a#pro5:hover
+{
+    opacity: 0.5;
+}
+
+.contactContainer
+{
+    width: 100%;
+}
+
+.contactInfo
+{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.contactInfo li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.contactInfo li a:hover
+{
+    text-decoration: none;
+    color: darkblue;
+    background-color: beige;
+}
