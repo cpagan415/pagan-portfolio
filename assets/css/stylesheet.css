@@ -1,0 +1,62 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navContainer
+{
+    display:flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.linkContainer
+{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+body
+{
+    font-family: 'Lexend', sans-serif;
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 80px;
+    height: 100vh;
+    border: 3px solid red;
+}
+
+h1
+{
+    border-right: 3px solid blue;
+    text-align: right;
+    margin-right: 80px;
+    padding: 0px 0px 0px 40px;
+}
+
+
+#About, #Work, #Contact
+{
+    display:flex;
+    border: 3px solid black;
+    padding: 10px;
+    width: 100%;
+}
+.sectionInfo
+{
+    border-left: 2px solid blue;
+}
+
