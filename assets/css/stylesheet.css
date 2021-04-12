@@ -29,6 +29,18 @@ body
     font-family: 'Lexend', sans-serif;
 }
 
+li a 
+{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: white;
+    color:black;
+}
+
 .mainContainer
 {
     display: flex;
