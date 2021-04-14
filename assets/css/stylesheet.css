@@ -14,8 +14,14 @@
     background-color: black;
     color: white;
     width: 100vw;
-  
+
 }
+
+.navContainer span
+{
+    margin-left: 10px;
+}
+
 .linkContainer
 {
     display:flex;
@@ -209,60 +215,75 @@ a#pro5:hover
 }
 
 
-@media only screen and (max-width:480px)
-{
- .navContainer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
- }
 
- .linkContainer
- {
-    display: flex;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
- }
 
- #About, #Work, #Contact
- {
-     display: flex;
-     flex-direction: column;
-     align-self: center;
- }
-
- #About h1, #Work h1, #Contact h1
- {
-     width: 100%;
-     text-align: center;
-     margin-bottom: 40px;
-     padding: 0;
- }
-
- 
-
- .smallImg, .smallImg2
- {
-    flex-direction: column;
- }
-
- .contactInfo
- {
-     flex-direction: column;
-     margin: 0;
- }
-
- .contactInfo li
- {
-     align-self: center;
-     line-height: 50px;
- }
-
-}
+/*Media Queries*/
 
 @media only screen and (max-width:768px)
 {
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+     }
+    
+     .linkContainer
+     {
+        display: flex;
+        width: 100%;
+     }
+    
+     #About, #Work, #Contact
+     {
+         display: flex;
+         flex-direction: column;
+         align-self: center;
+     }
+    
+     #About h1, #Work h1, #Contact h1
+     {
+         width: 100%;
+         text-align: center;
+         margin-bottom: 40px;
+         padding: 0;
+     }
+    
+     
+    
+     .smallImg, .smallImg2
+     {
+        flex-direction: column;
+     }
+    
+     .contactInfo
+     {
+         flex-direction: column;
+         margin: 0;
+     }
+    
+     .contactInfo li
+     {
+         align-self: center;
+         line-height: 50px;
+     }
+}
+
+@media only screen and (max-width:480px)
+{
+    .navContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+     }
+    
+     .linkContainer
+     {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+     }
 
 }
