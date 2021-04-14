@@ -7,11 +7,16 @@ This is a coding challenge I submitted for the UCF web development bootcamp. I u
 Images from Pexels.com
 
 Github Pages: https://cpagan415.github.io/pagan-portfolio/
+
+
 Github Repo: https://github.com/cpagan415/pagan-portfolio
 
 
 ![Screenshot of portfolio](/assets/images/portfolio1.png)
+
+
 ![Screenshot of portfolio](/assets/images/portfolio2.png)
-![Screenshot of portfolio](/assets/images/portfolio3.png)
+
+
 
 
